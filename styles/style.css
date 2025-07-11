@@ -53,3 +53,32 @@ h3{
     font-weight: bold;
     color: #252432;
 }
+main{
+    background-color: rgba(245, 248, 255, 1);
+    /* max-width: 100%; */
+    /* background-size: cover; */
+    margin-top: 0px;
+    
+}
+/* action styes */
+.action{
+    display: flex;
+    justify-content: space-between;
+    /* margin: 116px 150px; */
+    gap: 220px;
+    margin-top: 0px;
+    padding:116px 150px ;
+}
+.action-title{
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+}
+.action-description{
+    color: #252432;
+    font-size: 24px;
+    font-weight: 400;
+}
+.action-img{
+    border-radius: 48px;
+}
