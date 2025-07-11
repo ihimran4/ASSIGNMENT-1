@@ -155,3 +155,39 @@ main{
     margin-left: 5px; 
     
 }
+/* newsletter styles */
+.newsletter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 115px;
+    margin: 92px 150px 12px;
+}
+.newsletter-heading{
+    font-size: 97px;
+    font-weight: bold;
+    padding: 200px 0px;
+}
+section input[type="email"],section input[type="text"],section textarea, section .newsletter-btn{
+    border-radius: 10px;
+    border: none;
+    padding: 20px;
+    margin-bottom: 20px;
+    height: 64px;
+    width: 100%;
+        color: rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 6px;
+}
+section .newsletter-btn{
+    color:white ;
+}
+section label{
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+    margin-bottom: 10px;
+    padding: 5px;
+
+}
